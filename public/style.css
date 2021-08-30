@@ -41,6 +41,10 @@ button {
   box-shadow: inset 0 -3px 0 0 #4801A5;
 }
 
+button:hover {
+  background: #300174;
+}
+
 button:active {
   box-shadow: none;
   transform: translateY(3px);
@@ -65,7 +69,8 @@ table {
 }
 
 form {
-  margin-top: 25px;
+  margin: 25px;
+  padding: 25px;
 }
 
 .transactions {
@@ -77,5 +82,5 @@ form {
 }
 
 .transaction-buttons {
-  margin-top: 25px;
+  margin: 25px;
 }
